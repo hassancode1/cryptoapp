@@ -8,6 +8,7 @@ import CoinPage from "./Routes/CoinPage";
 function App() {
   return (
     <div className="App">
+      <div> </div>
       <Router>
         <Route path="/" exact render={(props) => <Home />} />
         <Route path="/CoinPage/:id" exact render={(props) => <CoinPage />} />
